@@ -93,6 +93,8 @@
                 [car_number]:"false"
             });
             
+            
+            
             //データ更新
             japan.onclick = function(){
                 language_root.update({

@@ -122,15 +122,38 @@ and open the template in the editor.
                 };
                 firebase.initializeApp(config);
                 //FireBaseの情報登録
-                
-
+            
+            //日付の取得
+            var date = new Date();
+            
+            var year = date.getFullYear();
+            var month = date.getMonth()+1;
+            var day = date.getDate();
+            var hour = date.getHours();
+            var minites = date.getMinutes();
+            var seconds = date.getSeconds();
+            
+            var date_data = year + "-" + month + "-" + day;
+            var time_data = hour + ":" + minites + ":" + seconds;
+            
+           
                 var upBtn = document.getElementById('submit_btn');
                 var fdb = firebase.database();
                 var startRoot = fdb.ref('/startData/carNumber/');
                 var goalRoot = fdb.ref('/goalData/carNumber/');
                 var startAddress = fdb.ref('/startAddress/carNumber/');
                 var goalAddress = fdb.ref('/goalAddress/carNumber/');
+                var dateroot = fdb.ref('/dateData/carNumber');
+                var timeroot = fdb.ref('/timeData/carNumber');
                 var carNum = "<?php echo $carNum;?>";
+                dateroot.update({
+                    [carNum]:date_data
+                });
+                
+                timeroot.update({
+                    [carNum]:time_data
+                });
+                
                 
                 upBtn.disabled = "disabled";
 

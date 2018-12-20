@@ -36,15 +36,15 @@ URLが消えるようにするから消えた時のことを考えてレイア�
                 //SQL文の実行
                 $login_data = $dbh->query($sql);
                 
-                //データベースのデータ番号の一番大きいものを取得する
-                $sql2 = "SELECT MAX(dataNumber) FROM collecteddata";
-                //SQL文の実行
-                $data_number = $dbh->query($sql2);
-                
-                //data_Numberの値を取得する
-                foreach ($data_number as $data_number_row) {
-                    $data_number_now = $data_number_row['MAX(dataNumber)'];
-                }
+//                //データベースのデータ番号の一番大きいものを取得する
+//                $sql2 = "SELECT MAX(dataNumber) FROM collecteddata";
+//                //SQL文の実行
+//                $data_number = $dbh->query($sql2);
+//                
+//                //data_Numberの値を取得する
+//                foreach ($data_number as $data_number_row) {
+//                    $data_number_now = $data_number_row['MAX(dataNumber)'];
+//                }
                 
 
                 
@@ -105,7 +105,7 @@ URLが消えるようにするから消えた時のことを考えてレイア�
                                     session_start();
                                     $_SESSION['id'] = $id;
                                     $_SESSION['car_number'] = $car_number;
-                                    $_SESSION['data_number'] = $data_number_now + 1;
+                                    //$_SESSION['data_number'] = $data_number_now + 1;
 
                                     //画面の遷移
                                     header('location: driving.php');

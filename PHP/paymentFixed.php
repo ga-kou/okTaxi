@@ -1,7 +1,9 @@
 <?php 
     session_start();
     
-    $car_number = $_SESSION['carNumber'];
+    $car_number = $_SESSION['car_number'];
+    $_POST['payment'] = null;
+    echo $_POST['payment'];
 
 ?>
 
@@ -22,7 +24,7 @@
             <p id="select_pay"></p>
                 
            <!--支払い完了ボタンと、セッションに入れるべきデータをhiddenで送信する-->
-           <form action="driving.php" method="POST">
+           <form action="dbConnect.php" method="POST">
                 <input type="hidden" value="" name="payment" id="payment" />
                 <input type="hidden" value="" name="language" id="language" />
                 <input type="hidden" value="" name="inTime" id="inTime" />
@@ -88,7 +90,7 @@
             date_root.on("value", function(snapshot) {
                 date = snapshot.val()[carNumber];
                 //hiddenの値に代入する
-                fate_id.value = date;
+                date_id.value = date;
             });
             
             //nextflagをtrueにする

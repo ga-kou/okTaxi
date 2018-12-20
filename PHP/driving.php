@@ -9,6 +9,24 @@ and open the template in the editor.
             $id = $_SESSION['id'];
             $car_number = $_SESSION['car_number'];
             
+            //DBに接続
+            $dbh = new PDO('mysql:host=localhost;dbname=taxidatabase','takahara', 'takahara');
+            
+            //データベースのデータ番号の一番大きいものを取得する
+            $sql2 = "SELECT MAX(dataNumber) FROM collecteddata";
+            //SQL文の実行
+            $data_number = $dbh->query($sql2);
+            
+            //data_Numberの値を取得する
+            foreach ($data_number as $data_number_row) {
+                $data_number_now = $data_number_row['MAX(dataNumber)'];
+            }
+            
+            $_SESSION['data_number'] = $data_number_now + 1;
+            
+            echo $_SESSION['data_number'];
+            
+                    
             if(isset($_POST['payment'])) {
                 $_SESSION['start'] = $_POST['start'];
                 $_SESSION['goal'] = $_POST['goal'];
