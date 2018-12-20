@@ -1,0 +1,121 @@
+/*文字のフォントをメイリオにする*/
+body {
+  font-family: メイリオ;
+}
+
+/*ヘッダーのところの高さの指定*/
+header {
+  height: 90px;
+}
+
+h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 50px;    
+}
+            
+#price {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: -30px; 
+}
+
+.qr_back{
+  position: relative;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin-top: 45px;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+   /*サイズはコンテンツに応じて変更してください*/
+   width: 900px;
+   height: 250px;
+}
+            
+#en {
+    font-size: 40px;
+               
+}
+
+            
+.qr_select {
+    display: inline-block;      /* インラインブロック要素にする */
+    padding: 50px;             /* 余白指定 */
+    height: 100px;              /* 高さ指定 */
+    display: flex;
+    position: relative;
+    top: -100px;
+}
+            
+#we_chat {
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    background: #CCFFCC;/*ボタン色*/
+    color: #000;/*文字色*/
+    border: solid 2px #32CD32;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 40px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    margin: 0px 30px;
+}
+
+#we_chat:active {
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+            
+#alipay {
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    background: #AFEEEE;/*ボタン色*/
+    color: #000;/*文字色*/
+    border: solid 2px #0000FF;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 40px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    margin: 0px 30px;
+}
+
+#alipay:active {
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+            
+#line_pay {
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    background: #FBDBB3;/*ボタン色*/
+    color: #000;/*文字色*/
+    border: solid 2px #F5A53A;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 40px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    margin: 0px 30px;
+}
+   
+#line_pay:active {
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+.back_btn {
+    position: fixed;
+
+    bottom: 5px;
+    width: 70px;
+}
+
+html,body{
+    overflow: hidden;
+}

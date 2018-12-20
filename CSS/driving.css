@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018/11/22, 11:48:12
+    Author     : 16110012
+*/
+
+#valueInput{
+    font-size:36pt;
+    width:475px; 
+    height:450px;
+}
+
+#logout_btn{
+  float: left;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #FBDBB3;/*ボタン色*/
+  color: #000;/*文字色*/
+  border: solid 2px #F5A53A;/*枠線*/
+  border-radius: 30px; /*角を丸める強さ*/
+  font-family: メイリオ;
+  font-size: 20px; /*文字のサイズ*/
+  box-shadow:2px 2px 2px #C4C2C0; /*影*/
+}
+
+#payment_btn{
+    float: right;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #FBDBB3;/*ボタン色*/
+    color: #000;
+    border: solid 2px #F5A53A;
+    border-radius: 30px;
+    font-family: メイリオ;
+    font-size: 20px;
+    box-shadow:2px 2px 2px #C4C2C0;
+}
+#logout_btn:active {
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+#payment_btn:active {
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+body {
+    font-family: メイリオ;
+}
+
+/*
+.login_content {
+    text-align: center;
+}
+
+ログインボタンの設定
+#payment_btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #FBDBB3;ボタン色
+    color: #000;
+    border: solid 2px #F5A53A;
+    border-radius: 30px;
+    font-family: メイリオ;
+    font-size: 20px;
+    box-shadow:2px 2px 2px #C4C2C0;
+}
+ログインボタンを押した時の設定
+#login_btn:active {
+    transform: translateY(4px);下に動く
+    box-shadow: none;
+}*/
+

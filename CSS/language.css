@@ -1,0 +1,52 @@
+h1 {
+    position: relative;
+    top: -20px;
+    text-align: center;
+    font-size: 50px;
+               
+}
+            
+.language_back{
+  position: relative;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+
+   margin-top: 45px;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+   /*サイズはコンテンツに応じて変更してください*/
+}
+
+.language {
+    position: relative;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin: auto;
+}
+
+.hata {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+
+/*文字のフォントをメイリオにする*/
+body {
+  font-family: メイリオ;
+}
+
+/*ヘッダーのところの高さの指定*/
+header {
+  height: 90px;
+}
+
+html,body{
+    overflow: hidden;
+}
+

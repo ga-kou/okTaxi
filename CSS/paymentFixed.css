@@ -1,0 +1,62 @@
+body {
+    font-family: メイリオ;
+}
+
+header {
+    height: 90px;
+}
+
+
+h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.pament_fixed_back {
+   position: relative;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   
+   margin-top: 45px;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+   
+   width: 650px;
+   height: 250px;
+}
+
+.fixed_content {
+    text-align: center;
+    font-size: 40px;
+}
+
+#select_pay {
+    font-size: 30px;
+    height: 40px;
+    text-align: center;
+}
+
+#fixed {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #C2DFFA;/*ボタン色*/
+    color: #fff;
+    border: solid 2px #6495ed;
+    border-radius: 30px;
+    font-family: メイリオ;
+    font-size: 90px;
+    box-shadow:2px 2px 2px #C4C2C0;
+}
+
+#fixed:active {
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none;
+}
+
+

@@ -1,0 +1,273 @@
+/*文字のフォントをメイリオにする*/
+body {
+    font-family: メイリオ;
+}
+
+/*ヘッダーのところの高さの指定*/
+header {
+    height: 90px;
+}
+
+/*ヘッダーに出る文字のレイアウトの設定*/
+h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*戻るボタンのレイアウト*/
+.back_btn {
+    position: fixed;
+    bottom: 5px;
+    width: 70px;
+}
+
+.comment_back {
+   position: relative;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   
+   margin-top: 80px;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+   
+   width: 980px;
+   height: 150px;
+}
+
+.comment_content {
+    text-align: center;
+/*    border: 2px solid #6495ed;
+    border-radius: 40px;*/
+    width:980px;
+    height: 350px;
+/*    background-color: #EBF5FD; */
+}
+
+/*ボタン1*/
+#comment_btn1 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn1:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+/*ボタン2*/
+#comment_btn2 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn2:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+/*ボタン3*/
+#comment_btn3 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn3:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+/*ボタン4*/
+#comment_btn4 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn4:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+/*ボタン5*/
+#comment_btn5 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn5:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+/*ボタン6*/
+#comment_btn6 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn6:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+/*ボタン7*/
+#comment_btn7 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn7:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+/*ボタン8*/
+#comment_btn8 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn8:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+/*ボタン9*/
+#comment_btn9 {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #A9D0F5;/*ボタン色*/
+    color: #FFFFFF;/*文字色*/
+    border: solid 2px #5882FA;/*枠線*/
+    border-radius: 30px; /*角を丸める強さ*/
+    font-family: メイリオ;
+    font-size: 20px; /*文字のサイズ*/
+    box-shadow:2px 2px 2px #C4C2C0; /*影*/
+    width: 300px;
+    height: 80px;   
+    outline: none
+}
+/*ボタンを押した時の挙動*/
+#comment_btn9:active {
+    background: #75A9FF;/*ボタン色*/
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none; /*影をなくす*/
+}
+
+.bl2{
+    margin-top: 10px;
+}
+
+.bl3{
+    margin-top: 10px;
+}

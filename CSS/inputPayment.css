@@ -1,0 +1,158 @@
+body {
+    font-family: メイリオ;
+}
+
+
+header {
+    height: 90px;
+}
+
+
+h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.input_payment_back {
+   position: relative;
+   top: 80px;
+   right: 0;
+   left: 20px;
+   bottom: 0;
+   margin: auto;
+   
+   width: 450px;
+   height: 250px;
+}
+
+#error_msg {
+    height: 20px;
+    text-align: center;
+    color: red;
+}
+
+.confirm_text {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*テキストボックス*/
+#price {
+    border:0;
+    padding:10px;
+    font-size:1em;
+    font-family:Arial, sans-serif;
+    color:#000;
+    border:solid 2px gray;
+    margin:0 0 20px;
+    
+    width: 400px;
+}
+
+#output {
+    font-size: 25px;
+    text-align: center;
+}
+
+/*確定ボタンのレイアウト*/
+#open-sample-dialog {  
+    float: right;
+    
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: skyblue;/*ボタン色*/
+    color: #000;
+    border: solid 2px #1e90ff;
+    border-radius: 20px;
+    font-family: メイリオ;
+    font-size: 20px;
+    box-shadow:2px 2px 2px #C4C2C0;
+    
+    width: 100px;
+}
+
+#open-sample-dialog:active {
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: none;
+}
+
+
+/*ダイアログのレイアウト設定*/
+/*ダイアログの外枠のレイアウト*/
+.dialog {
+  overflow: hidden;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  left: 0;
+  height: 250px;
+  width: 500px;
+  display: none;
+  border:2px solid #6495ed;
+  border-radius: 40px;
+  z-index:1000;
+}
+
+.dialog-content {
+  position: relative;
+  top: 30px;
+  border: 0;
+  padding: .5em 1em;
+  background: #fff;
+  overflow: auto;
+  width: auto;
+  height: auto;
+}
+
+/*いいえボタンのレイアウト*/
+.dialog-close {
+    float: right;
+    position: relative;
+    right: 30px;
+  
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: skyblue;/*ボタン色*/
+    color: #000;
+    border: solid 2px #1e90ff;
+    border-radius: 20px;
+    font-family: メイリオ;
+    font-size: 20px;
+    box-shadow:2px 2px 2px #C4C2C0;
+    
+    width: 150px;
+}
+
+/*はいボタンのレイアウト*/
+.dialog-send {
+    float: left;
+    position: relative;
+    left: 30px;
+
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: pink;/*ボタン色*/
+    color: #000;
+    border: solid 2px #bd7093;
+    border-radius: 20px;
+    font-family: メイリオ;
+    font-size: 20px;
+    box-shadow:2px 2px 2px #C4C2C0;
+    
+    width: 150px;
+}
+
+
+/*戻るボタンのレイアウト*/
+.back_arrow {
+    position: fixed;
+    
+    bottom: 5px;
+    width: 70px;
+    
+}
