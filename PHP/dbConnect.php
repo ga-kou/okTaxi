@@ -23,7 +23,7 @@ $car_number = $_SESSION['car_number'];
 
 try{
    //データーベース接続
-$pdo = new PDO('mysql:host=localhost;dbname=taxidatabase;charset=utf8','root','password');
+$pdo = new PDO('mysql:host=localhost;dbname=taxidatabase;charset=utf8','test','test');
 
 //データ追加
 $pdo->exec("insert into collecteddata(dataNumber,goal,start,language,price,date,payment,inTime,carNumber) "

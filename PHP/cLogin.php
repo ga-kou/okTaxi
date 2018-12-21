@@ -23,7 +23,7 @@
             // データベースへのアクセス
             try {
                 //DBに接続
-                $dbh = new PDO('mysql:host=localhost;dbname=taxidatabase','root', 'password');
+                $dbh = new PDO('mysql:host=localhost;dbname=taxidatabase','test', 'test');
                 //ログインデータを取得するSQL文
                 $sql = "SELECT * FROM logindata";
                 //SQL文の実行
