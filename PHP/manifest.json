@@ -1,5 +1,5 @@
 {
-  "name": "okTaxi",
-  "short_name": "okTaxi",
+  "name": "App Name",
+  "short_name": "short name",
   "display": "standalone"
 }

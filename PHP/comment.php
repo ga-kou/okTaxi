@@ -3,6 +3,7 @@
     //セッション生成
     session_start();
     //セッションから号車を取得
+    //$_SESSION['car_number'];
     $car_number = $_SESSION['car_number'];
 ?>    
 <html>
