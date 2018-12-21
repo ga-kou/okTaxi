@@ -105,10 +105,8 @@
                 
             }
         </script>
-        
-        
-        
-        <?php        
+
+       <?php        
  
              //支払い完了ボタンが押された場合の処理   
             if(isset($_POST['fixed'])) {
@@ -119,13 +117,7 @@
                 $_SESSION['inTime'] = $_POST['inTime'];
 
                 require_once "dbConnect.php";
-                
-                //データベースに値を格納する関数の呼び出し
-                $db_access = new dbConnect();
-                $db_access->db_access();
-                
-                //header('location: driving.php');
-                //exit();
+
             //支払い完了ボタンが押される前の処理で値が入っていない場合 
             }else if(!$price = $_POST['price_hidden']){
             
