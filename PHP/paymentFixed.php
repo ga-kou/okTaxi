@@ -117,6 +117,8 @@
                 $_SESSION['inTime'] = $_POST['inTime'];
 
                 require_once "dbConnect.php";
+                header('location: driving.php');
+                                exit();
 
             //支払い完了ボタンが押される前の処理で値が入っていない場合 
             }else if(!$price = $_POST['price_hidden']){

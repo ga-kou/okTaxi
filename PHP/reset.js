@@ -51,5 +51,5 @@ priceroot.update({
     [car_number]:""
 });
 comment_root.update({
-    [car_number]:""
+    [car_number]:"   "
 });

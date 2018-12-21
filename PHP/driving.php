@@ -10,7 +10,7 @@ and open the template in the editor.
             $car_number = $_SESSION['car_number'];
             
             //DBに接続
-            $dbh = new PDO('mysql:host=localhost;dbname=taxidatabase','root', 'password');
+            $dbh = new PDO('mysql:host=localhost;dbname=taxidatabase','test','password');
             
             //データベースのデータ番号の一番大きいものを取得する
             $sql2 = "SELECT MAX(dataNumber) FROM collecteddata";

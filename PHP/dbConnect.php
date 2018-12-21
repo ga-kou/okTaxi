@@ -1,6 +1,3 @@
-<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
-<script src="reset.js"></script>
-
 <?php
 
 session_start();
@@ -23,7 +20,7 @@ $car_number = $_SESSION['car_number'];
 
 try{
    //データーベース接続
-$pdo = new PDO('mysql:host=localhost;dbname=taxidatabase;charset=utf8','test','test');
+$pdo = new PDO('mysql:host=localhost;dbname=taxidatabase;charset=utf8','test','password');
 
 //データ追加
 $pdo->exec("insert into collecteddata(dataNumber,goal,start,language,price,date,payment,inTime,carNumber) "
@@ -42,6 +39,9 @@ $car_number = "";
 }catch (PDOException $e){
     die();
 }
-
-//driving.phpに画面遷移
-header('location: driving.php');
+?>
+<script>setTimeout(function(){
+                window.location.href = 'driving.php';
+           }, 2*1000);</script>
+<!--//driving.phpに画面遷移
+header('location: driving.php');-->
