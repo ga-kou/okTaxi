@@ -6,6 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../CSS/Login.css">
+        <link rel="manifest" href="manifest.json">
         <title>お客様用ログイン</title>
     </head>
     <body>
