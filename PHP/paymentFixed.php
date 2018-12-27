@@ -105,23 +105,13 @@
                 
             }
         </script>
-
-       <?php        
+        
+        
+        
+        <?php        
  
              //支払い完了ボタンが押された場合の処理   
-            if(isset($_POST['fixed'])) {
-                
-                //セッションに支払い方法を入れる
-                $_SESSION['payment'] = $_POST['payment'];
-                $_SESSION['language'] = $_POST['language'];
-                $_SESSION['inTime'] = $_POST['inTime'];
-
-                require_once "dbConnect.php";
-                header('location: driving.php');
-                                exit();
-
-            //支払い完了ボタンが押される前の処理で値が入っていない場合 
-            }else if(!$price = $_POST['price_hidden']){
+            if(!$price = $_POST['price_hidden']){
             
             //値が入っていた場合
             }else {

@@ -51,7 +51,7 @@
                     </td>
                 
                     <td class="hata">
-                        <a href="golal.php"><img src="../IMG/Korean.jpg" id="korea" width="170" height="120" alt="Korean"/></a>
+                        <a href="goal.php"><img src="../IMG/Korean.jpg" id="korea" width="170" height="120" alt="Korean"/></a>
                         <p>한국</p>
                     </td>
                 </tr>

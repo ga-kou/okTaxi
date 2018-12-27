@@ -1,3 +1,4 @@
+
 //FireBaseの情報登録
 var config = {
     apiKey: "AIzaSyBOPrqIzq-UUnRARZOHVYEh87m1FbzBRR0",

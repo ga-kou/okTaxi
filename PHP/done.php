@@ -5,8 +5,6 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../CSS/done.css">
         <title>決済完了画面</title>
-        <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
-        <script src="reset.js"></script>
         <script>
             var flg_root = fdb.ref('/nextFlg/carNumber/');
             flg_root.update({

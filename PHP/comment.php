@@ -11,7 +11,6 @@
         <meta charset="utf-8">
         <title>コメント</title>
         <link rel="stylesheet" type="text/css" href="../CSS/commentStyle.css">
-        <link rel="manifest" href="manifest.json">
         <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script> 
     </head>
     <body>
