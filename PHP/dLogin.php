@@ -30,7 +30,7 @@ URLが消えるようにするから消えた時のことを考えてレイア�
             // データベースへのアクセス
             try {
                 //DBに接続
-                $dbh = new PDO('mysql:host=localhost;dbname=taxidatabase','takahara', 'takahara');
+                $dbh = new PDO('mysql:host=localhost;dbname=taxidatabase','test', 'password');
                 //ログインデータを取得するSQL文
                 $sql = "SELECT * FROM logindata";
                 //SQL文の実行
