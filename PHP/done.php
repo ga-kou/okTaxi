@@ -16,7 +16,7 @@
            //5秒後に言語選択画面に遷移する
            setTimeout(function(){
                 window.location.href = 'language.php';
-           }, 5*1000);
+           }, 1*1000);
         </script>
         
     </head>
