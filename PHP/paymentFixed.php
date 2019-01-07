@@ -104,6 +104,9 @@
                 
                 
             }
+            setTimeout(function(){
+                window.location.href = 'language.php';
+           }, 1*1000);
         </script>
         
         

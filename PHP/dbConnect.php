@@ -43,7 +43,7 @@ class dbConnect{
         
         try{
            //データーベース接続
-        $pdo = new PDO('mysql:host=localhost;dbname=taxidatabase;charset=utf8','takahara','takahara');
+        $pdo = new PDO('mysql:host=localhost;dbname=taxidatabase;charset=utf8','test', 'password');
 
         //データ追加
         $pdo->exec("insert into collecteddata(dataNumber,goal,start,language,price,date,payment,inTime,carNumber) "

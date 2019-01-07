@@ -53,7 +53,7 @@
             [car_number]:""
         });
         comment_root.update({
-            [car_number]:""
+            [car_number]:" "
         });
         
         //window.location.href = 'driving.php';
